@@ -1,0 +1,8 @@
+CREATE TABLE users(
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    login VARCHAR(100) NOT NULL,
+    pass VARCHAR(100) NOT NULL,
+    active TINYINT NOT NULL,
+
+    PRIMARY KEY (id)
+);
